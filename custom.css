@@ -1,0 +1,257 @@
+/* Style for Home Page */
+
+
+body{
+	background-image:url("./public/images/backb.jpg");
+	padding-left: 50px;
+  	padding-right: 50px;
+	background-color:#fefeef;
+background-repeat:repeat;
+
+	}
+
+	/*--------------------------------------------
+  This is the elevator-pitch on the home page/homepage
+  ----------------------------------------------*/
+	.tagline {
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	right:100px;
+	width: 100%;
+	margin: 0 auto;
+	width: 1000px;
+	height: 50px;
+	color: white;
+	}
+
+	/*-----------------------------------------------------------
+  this is the image with the How it works text on the homepage
+  -------------------------------------------------------------*/
+	
+ /*--------------------------------------------
+  This is the button to apply for scholarships/homepage
+  ---------------------------------------------*/
+	
+
+/*---------------------------------------
+This is the banner image on the homepage
+-----------------------------------------*/  
+
+	 
+
+  /*-----------------------
+  Featured student content
+  --------------------*----*/
+  .feature { 
+    position:relative;
+    color:#fff;
+    background:#25383c;
+    font-size:1.5em;
+    clear:both;
+    padding:10px 10px 10px 20px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    text-align: center;
+      -moz-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -o-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    box-shadow:2px 2px 0 rgba(0,0,0,0.1);}
+
+  .feature-image{
+      height:200px;
+      width:300px;
+      margin-left:20px;
+      margin-right: 20px;
+      margin-bottom:20px;
+    }
+
+  .header-faq {
+    /*This is the  header for FAQ(in the blue box)*/
+  
+    position:relative;
+    color:#fff;
+    background:#3ea99f;
+    font-size:1.5em;
+    clear:both;
+    padding:10px 10px 10px 20px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom:0px;
+    font-size: 28px;
+    /*text-shadow:0 -1px #d0284b, 0 1px #f96080;*/
+  
+    -moz-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    -o-box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+    box-shadow:2px 2px 0 rgba(0,0,0,0.1);
+  }
+
+    .content-faq{
+    /*This is the actual content for FAQ(in the white box)*/
+  
+    color: black;
+    width: -100px;
+    padding:10px 10px 10px 20px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  /*--------------------------------------
+   Everything on the banner image
+   -------------------------------------*/
+   /*This is the banner image*/
+
+
+    .color{
+    background-color: rgba(111, 101, 101, 0.5);
+    height: 650px;
+    font-family: arial;
+    color: white;
+    margin: 0px;
+  }
+  
+    /*----------------------
+      On student dashboard
+    -----------------------*/
+    .sponsor_data{
+      color:white;
+      text-shadow: black 0.2em 0.2em 0.2em;
+    }
+
+  /*  .edit{
+      float:right;
+    }*/
+
+    
+    
+
+    
+
+    /*===================================
+    I don't know where these classes are!
+    =====================================*/
+
+   /* #prework{
+      margin-top:50px;
+  
+
+    .dashboard{
+
+      float:right;
+    }*/
+
+   /*orm{
+     display:inline;
+    } */
+
+   
+
+  /* Style for StudentProfile */
+
+  /*.col-md-3{
+  padding-left: 60px;
+  }*/
+
+  /*.icons{
+  position: absolute;
+  top: 130px;
+  right: 100px;
+  }*/
+/*.workstatus{
+  text-align: center;}*/
+
+/*
+  ==========================================================
+  This is the thought bubble on the home page
+  ==========================================================*/
+
+  /*.oval-thought-border {
+  position:relative;
+  padding:70px 70px;
+  margin: 30px;
+  border:10px solid #3ea99f;
+  text-align:center;
+  color:#333;
+  background:#fff;
+  width: 700px;
+  margin:1em 0;
+  font-size: 1.5em;
+
+  /* css3 */
+  /*
+  NOTES:
+  -webkit-border-radius:240px 140px; // produces oval in safari 4 and chrome 4
+  -webkit-border-radius:240px / 140px; // produces oval in chrome 4 (again!) but not supported in safari 4
+  Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+  */
+  -webkit-border-top-left-radius:240px 140px;
+  -webkit-border-top-right-radius:240px 140px;
+  -webkit-border-bottom-right-radius:240px 140px;
+  -webkit-border-bottom-left-radius:240px 140px;
+  -moz-border-radius:240px / 140px;
+  border-radius:350px / 260px;
+ /* text-shadow:0 -1px #d0284b, 0 1px #f96080;*/
+
+}
+
+/* creates the larger circle */
+/*.oval-thought-border:before {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:-40px;
+  right:100px;
+  width:50px;
+  height:50px;
+  border:10px solid #3ea99f;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  /* reduce the damage in FF3.0 */
+  display:block;
+}
+
+/* creates the smaller circle */
+/*.oval-thought-border:after {
+  content:"";
+  position:absolute;
+  z-index:10;
+  bottom:-60px;
+  right:50px;
+  width:25px;
+  height:25px;
+  border:10px solid #3ea99f;
+  background:#fff;
+  /* css3 */
+  -webkit-border-radius:25px;
+  -moz-border-radius:25px;
+  border-radius:25px;
+  /* reduce the damage in FF3.0 */
+  display:block;
+
+}
+
+ .faq-background{
+    background-color: rgba(111, 101, 101, 1);
+    background-size: cover;
+    height: 1400px;
+    margin-left: -70px;
+    margin-right: -70px;
+
+  }
+
+
+
+
+/*
+====================================================
+Thought bubble ends here
+====================================================*/
