@@ -35,10 +35,28 @@ background-repeat:repeat;
 	
 
 /*---------------------------------------
-This is the banner image on the homepage
+For Breaking lines on pages
 -----------------------------------------*/  
-
+.week{
+  max-width:600px;
+  word-wrap:break-word;
+}
+.jaaga{
+  max-width:800px;
+  word-wrap:break-word;
+}
+.course{
+  max-width:600px;
+  word-wrap:break-word;
+}
+.admin{
+  text-align: center;
+  height: auto;
+ max-width:400px;
+  word-wrap:break-word; 
+}
 	 
+
 
   /*-----------------------
   Featured student content

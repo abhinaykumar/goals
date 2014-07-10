@@ -155,6 +155,22 @@ function get_gravatar($email, $s = 400, $d = 'monsterid', $r = 'g', $img = false
     return $url;
 
     }
+function allUserInfo()
+{
+    $db = dbopen();
+    $sql="SELECT * from user inner join goals WHERE user.user_id = goals.user_id";
+    $list = mysqli_query($db,$sql) or die ("couldnt execute");
+
+    while($rows= mysqli_fetch_assoc($list))
+        {
+            
+            $data[] = array('user_id'=>$rows['user_id'],'name'=>$rows['name'],
+                'goal4week'=>$rows['goal4week'],'course'=>$rows['course']);
+        }
+        //var_dump($data);
+        return($data);
+        //return ($value);
+}    
 
 
 function logout()

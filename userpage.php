@@ -151,7 +151,7 @@ $UserInfo=getUserInfo($User['user_id']);
   		 		
 
   				
-  		 		<div class="well" width="100%">
+  		 		<div class="well jaaga" width="100%">
   		 		<h3 style="font-family:'KGSecondChancesSketch' cursive;">MY Goal.4.Jaaga</h3>
 
           			<br>
@@ -165,7 +165,7 @@ $UserInfo=getUserInfo($User['user_id']);
   		  <!-- Donation Details -->
   		  <div class="col-md-5"> 
 
-  				<div class="well" style="background-color:#33cc66; height:400px" id="bg" >
+  				<div class="well week" style="background-color:#33cc66; height:400px" id="bg" >
   			     <h3 style="font-family:'KGSecondChancesSketch' cursive;">MY Goal.4.Week</h3>	
   			     <p style="text-align:justify"><?php echo $UserInfo['goal4week']; ?>
   			     </p>
@@ -173,7 +173,7 @@ $UserInfo=getUserInfo($User['user_id']);
 
   				<br>
 
-  				<div class="well" style="background-color:#; height:450px; margin-top: -20px; text-align: justify;">
+  				<div class="well course" style="background-color:#; height:450px; margin-top: -20px; text-align: justify;">
 
   				<!--<a class="edit"href="#">
 
