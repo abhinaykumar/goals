@@ -111,8 +111,12 @@ else{
     	<div class="col-lg-8" >
       
      		<div class="well">
-        		<div id="freshtilledsoil_embed_widget" class="video-chat-widget"></div>
-<script id="fts" src="http://freshtilledsoil.com/embed/webrtc-v5.js?r=FTS0316-CZ6NqG97"></script>
+        		<!--<div id="freshtilledsoil_embed_widget" class="video-chat-widget"></div>
+<script id="fts" src="http://freshtilledsoil.com/embed/webrtc-v5.js?r=FTS0316-CZ6NqG97"></script> -->
+<div style="margin: 0 auto; width:100%; height:400px;">
+    <object type="text/html" data="https://apprtc.appspot.com/?r=886374872344"
+            style="width:100%; height:100%; margin:1%;">
+    </object>
         		<br />
       	</div>
     	</div>
